@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// String examples
+	// Q1. Given a long number, long millisecond = 23432312341L; convert it into possible hours , then minutes, then seconds and then milliseconds
+	    //eg:4hours, 34 minutes, 20 seconds, 3 milliseconds
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the long number:");
         int input = scanner.nextInt();
